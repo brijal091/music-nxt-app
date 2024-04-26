@@ -30,3 +30,16 @@
 NOTE: To use the hooks of the REACT In the NEXT JS we need to add 'use client' in the beginning of the file.
 ]
 
+[
+    (DARK MODE)
+
+    We have a feature of Dark mode in tailwind css. Give class as follows
+    <html lang="en" className="dark">
+
+    Then in tailwind.config.ts 
+    darkMode:'class',
+
+    now we can use the dark mode in the css file like dark:bg-gray-900;
+]
+
+
